@@ -9,7 +9,7 @@ Array.prototype.groupArrayByN = function groupArrayByN(n) {
     }
     return arrayGroups;
   }
-  return this; //Return original array if 'n' was 0 or less, or was not a valid imteger.
+  return this; //Return original array if 'n' was 0 or less, or was not a valid integer.
 };
 
 console.log("A:", [1, 2, 3, 4, 5, 6].groupArrayByN(3));
