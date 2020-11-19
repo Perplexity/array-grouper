@@ -1,5 +1,5 @@
 //Create a function in the array prototype, so that it can be accessible from any array you define which saves you having to pass it as a parameter to a standalone function.
-Array.prototype.groupArrayByN = function groupArrayByN(n) {
+Array.prototype.groupArrayByN = function(n) {
   //Check if 'n' is a valid integer and is greater than 0.
   if (Number.isInteger(n) && n > 0) {
     let arrayGroups = [];
